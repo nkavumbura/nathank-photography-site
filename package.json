@@ -10,7 +10,8 @@
     "sync-data": "node -e \"require('fs').copyFileSync('data/images.json','dist/data/images.json'); require('fs').copyFileSync('config.json','dist/data/config.json')\"",
     "build": "npm run build:manifest && npm run sync-data && npm run build:images && npm run build:pages",
     "serve": "node scripts/serve.mjs",
-    "admin": "node scripts/admin-server.mjs"
+    "admin": "node scripts/admin-server.mjs",
+    "publish": "node scripts/publish.mjs"
   },
   "keywords": [],
   "author": "",
