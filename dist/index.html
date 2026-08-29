@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio</title>
+<meta name="description" content="Panoramic landscape photography.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" id="brand-mark" href="index.html">
+      <img class="brand-logo" id="brand-logo-img" src="assets/logo.png" alt="" style="display:none;">
+      <span id="brand-text">Portfolio</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <img id="hero-img" alt="">
+  <div class="hero-copy">
+    <div class="eyebrow">Panoramic Landscape Photography</div>
+    <h1 id="hero-title">Wide views, quiet places</h1>
+    <p id="hero-sub">A collection of panoramic and long-exposure landscapes. Explore the full gallery and zoom in to see the detail the panoramic format captures.</p>
+    <a href="gallery.html" class="btn primary">View Gallery</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Browse by category</h2>
+      <p>Images are grouped loosely by subject — panoramas, alpine &amp; lake country, coastlines, cityscapes and more.</p>
+    </div>
+    <div class="category-grid" id="category-grid"></div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="section-head">
+      <h2>Featured panoramas</h2>
+      <p>Click any image to open it full-screen and zoom in.</p>
+    </div>
+    <div id="featured-grid"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:12px;">
+    <span>© <span id="footer-year"></span> <span class="footer-name">Your Name</span>. All rights reserved.</span>
+    <span>Prints &amp; digital downloads coming soon.</span>
+  </div>
+</footer>
+
+<script src="js/protections.js"></script>
+<script src="js/data.js"></script>
+<script src="js/justify.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/zoomcanvas.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

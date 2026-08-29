@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Site Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>Site Editor</h1>
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="galleries">Galleries</button>
+    <button class="tab-btn" data-tab="home">Home Page</button>
+    <button class="tab-btn" data-tab="about">About Page</button>
+  </nav>
+  <div class="topbar-actions" id="galleries-actions">
+    <label class="btn upload-btn">
+      + Add photos
+      <input type="file" id="file-input" accept=".jpg,.jpeg" multiple hidden>
+    </label>
+    <button class="btn" id="new-gallery-btn">+ New gallery</button>
+    <a class="btn ghost" href="http://localhost:8080" target="_blank" rel="noopener">View live site ↗</a>
+  </div>
+</header>
+
+<section class="tab-panel" data-tab-panel="galleries">
+  <div class="hint-bar">
+    Drag cards to reorder within a gallery or drop them into another gallery. Drop onto <b>Archived</b> to hide a photo from the site (nothing is deleted from disk). Click a card to edit its title, story, and details.
+  </div>
+  <main id="board" class="board"></main>
+</section>
+
+<section class="tab-panel" data-tab-panel="home" hidden>
+  <div class="settings-panel">
+    <h2>Site logo</h2>
+    <p class="panel-hint">Shown next to your site name in the header on every page. Upload an image on a dark or light background — it's automatically cut out onto a transparent background, so a logo on black/dark works best.</p>
+    <div class="logo-row">
+      <div class="logo-preview-box"><img id="logo-preview" alt=""></div>
+      <label class="btn upload-btn">
+        Upload logo
+        <input type="file" id="logo-input" accept=".jpg,.jpeg,.png" hidden>
+      </label>
+      <button class="btn ghost" id="logo-remove">Remove</button>
+    </div>
+
+    <h2 style="margin-top:12px;">Home page banner</h2>
+    <p class="panel-hint">Pick the photo shown as the homepage banner, then drag the slider so the right part of it stays in frame when the browser crops it to fit the screen.</p>
+
+    <div class="hero-preview-wrap">
+      <div class="hero-preview"><img id="hero-preview-img" alt=""></div>
+      <input type="range" id="hero-focal-slider" min="0" max="100" value="50">
+      <div class="slider-labels"><span>Left</span><span>Right</span></div>
+    </div>
+
+    <label>Custom headline
+      <input type="text" id="home-hero-title" placeholder="Defaults to the photo's own title">
+    </label>
+    <label>Tagline
+      <input type="text" id="home-tagline">
+    </label>
+
+    <h3>Choose banner photo</h3>
+    <div class="hero-picker" id="hero-picker"></div>
+
+    <button class="btn primary" id="home-save">Save home page</button>
+  </div>
+</section>
+
+<section class="tab-panel" data-tab-panel="about" hidden>
+  <div class="settings-panel">
+    <h2>About page</h2>
+
+    <div class="about-photo-row">
+      <img id="about-photo-preview" class="about-photo-preview" alt="">
+      <label class="btn upload-btn">
+        Upload your photo
+        <input type="file" id="about-photo-input" accept=".jpg,.jpeg,.png" hidden>
+      </label>
+    </div>
+
+    <label>About text
+      <textarea id="about-body-input" rows="10" placeholder="Separate paragraphs with a blank line."></textarea>
+    </label>
+    <label>Contact email
+      <input type="text" id="about-email-input">
+    </label>
+
+    <button class="btn primary" id="about-save">Save about page</button>
+  </div>
+</section>
+
+<div id="drop-overlay" class="drop-overlay">Drop photos to add them</div>
+
+<aside id="editor" class="editor">
+  <div class="editor-inner">
+    <button class="editor-close" id="editor-close">&times;</button>
+    <img id="ed-thumb" class="ed-thumb" alt="">
+    <label>Title
+      <input type="text" id="ed-title">
+    </label>
+    <label>Location
+      <input type="text" id="ed-location" placeholder="e.g. Karekare, Auckland, New Zealand">
+    </label>
+    <label>Story
+      <textarea id="ed-story" rows="6" placeholder="How this shot came together - separate paragraphs with a blank line."></textarea>
+    </label>
+    <label>Etsy / shop link (this photo)
+      <input type="text" id="ed-etsy" placeholder="Leave blank to use the site-wide shop link">
+    </label>
+    <h3>Camera details</h3>
+    <p class="ed-note">Edit or clear any field - blank fields are hidden on the site.</p>
+    <div class="ed-grid">
+      <label>Camera <input type="text" id="ed-cam-model"></label>
+      <label>Lens <input type="text" id="ed-cam-lens"></label>
+      <label>Focal length <input type="text" id="ed-cam-focalLength"></label>
+      <label>Aperture <input type="text" id="ed-cam-aperture"></label>
+      <label>Shutter speed <input type="text" id="ed-cam-shutter"></label>
+      <label>ISO <input type="text" id="ed-cam-iso"></label>
+    </div>
+    <div class="editor-actions">
+      <button class="btn primary" id="ed-save">Save</button>
+      <a class="btn ghost" id="ed-view" target="_blank" rel="noopener">View page ↗</a>
+      <button class="btn danger" id="ed-delete">Archive (hide from site)</button>
+    </div>
+  </div>
+</aside>
+
+<div id="toast" class="toast"></div>
+
+<script src="vendor/Sortable.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

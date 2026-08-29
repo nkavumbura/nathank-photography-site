@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lake Matheson — NathanK Photography</title>
+<meta name="description" content="Lake Matheson, West Coast, New Zealand — panoramic photograph shot on Canon EOS 6D Mark II.">
+<meta property="og:title" content="Lake Matheson">
+<meta property="og:description" content="Lake Matheson, West Coast, New Zealand">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="photo">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../index.html">
+      <img class="brand-logo" src="../assets/logo.png" alt="">
+      <span>NathanK Photography</span>
+    </a>
+    <nav class="main-nav">
+      <a href="../index.html">Home</a>
+      <a href="../gallery.html">Gallery</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="pd-stage" id="pd-stage">
+  <canvas id="pd-canvas"></canvas>
+  <div class="lb-hint">Ctrl/⌘ + scroll or pinch to zoom · drag to pan</div>
+  <button class="icon-btn pd-fullscreen-btn" id="pd-fullscreen" title="Open full-screen" aria-label="Open full-screen">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/></svg>
+  </button>
+  <noscript><img src="../assets/display/img-123.jpg" alt="Lake Matheson" style="width:100%;height:100%;object-fit:contain;"></noscript>
+</div>
+
+<div class="container pd-body">
+  <div class="pd-head">
+    <span class="pd-category">Alpine &amp; Lakes</span>
+    <h1>Lake Matheson</h1>
+    <p class="pd-loc">Lake Matheson, West Coast, New Zealand</p>
+  </div>
+
+  <div class="pd-grid">
+    <div class="pd-story-col">
+      <div class="pd-byline">
+        <div class="pd-avatar">NK</div>
+        <div>
+          <div class="pd-byline-name">Nathan Kavumbura</div>
+          <div class="pd-byline-role">Photographer</div>
+        </div>
+      </div>
+      <div class="pd-story-text pd-story-empty">The story behind this shot hasn't been added yet.</div>
+    </div>
+    <aside class="pd-meta">
+      <table><tr><td>Location</td><td>Lake Matheson, West Coast, New Zealand</td></tr>
+<tr><td>Date captured</td><td>July 12, 2021</td></tr>
+<tr><td>Camera</td><td>Canon EOS 6D Mark II</td></tr>
+<tr><td>Lens</td><td>24-70mm F2.8 DG OS HSM | Art 017</td></tr>
+<tr><td>Focal length</td><td>70mm</td></tr>
+<tr><td>Aperture</td><td>f/11</td></tr>
+<tr><td>Shutter speed</td><td>1/20s</td></tr>
+<tr><td>ISO</td><td>100</td></tr></table>
+      <a class="btn primary disabled" aria-disabled="true">Shop coming soon</a>
+    </aside>
+  </div>
+
+  <nav class="pd-nav">
+    <div class="pd-nav-prev">
+    <a href="img-122.html">
+      <img class="pd-nav-thumb" src="../assets/thumbs/img-122.jpg" alt="">
+      <span>← Previous<br><b style="color:var(--fg);">Lake Heron</b></span>
+      
+    </a></div>
+    <div class="pd-nav-center"><a href="../gallery.html">All panoramas</a></div>
+    <div class="pd-nav-next">
+    <a href="img-125.html">
+      
+      <span>Next →<br><b style="color:var(--fg);">Lindis Pass</b></span>
+      <img class="pd-nav-thumb" src="../assets/thumbs/img-125.jpg" alt="">
+    </a></div>
+  </nav>
+</div>
+
+<footer class="site-footer">
+  <div class="container" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:12px;">
+    <span>© <span id="footer-year"></span> Nathan Kavumbura. All rights reserved.</span>
+    <span>Prints &amp; digital downloads coming soon.</span>
+  </div>
+</footer>
+
+<script src="../js/protections.js"></script>
+<script src="../js/zoomcanvas.js"></script>
+<script src="../js/lightbox.js"></script>
+<script>
+  document.getElementById("footer-year").textContent = new Date().getFullYear();
+  window.__portfolioConfig = {"siteName":"NathanK Photography","photographerName":"Nathan Kavumbura","tagline":"Panoramic landscape photography","watermarkText":"© Nathan Kavumbura","etsyShopUrl":"","contactEmail":"nkavumbura@gmail.com","displayLongEdgePanorama":5600,"displayLongEdgeStandard":4200,"thumbLongEdge":640,"jpegQuality":84,"thumbQuality":78,"branding":{"hasLogo":true},"home":{"heroImageId":"img-129","heroFocalX":0,"heroTitle":""},"about":{"photo":"about-photo.jpg","body":"This is a collection of panoramic and long-exposure landscape photography, shot largely across New Zealand along with a handful of images from further afield. Most of the work is stitched from multiple exposures to capture the kind of wide field of view that a single frame can't hold — the panoramic format is the point, and every image here is best viewed zoomed in.\n\nPrints and digital downloads of the full-resolution files will be available soon through an Etsy shop — a link will appear on each image once that's live."}};
+  const viewer = window.createZoomViewer({
+    stage: document.getElementById("pd-stage"),
+    canvas: document.getElementById("pd-canvas"),
+    requireModifierForWheel: true,
+  });
+  viewer.loadImage("../assets/display/img-123.jpg");
+  document.getElementById("pd-fullscreen").addEventListener("click", () => {
+    window.Lightbox.open([{"id":"img-123","file":"Lake Matheson.jpeg","slug":"img-123","title":"Lake Matheson","needsTitleReview":false,"category":"alpine","categoryLabel":"Alpine & Lakes","isPanorama":true,"width":6928,"height":2309,"aspect":3,"camera":{"make":"Canon","model":"Canon EOS 6D Mark II","lens":"24-70mm F2.8 DG OS HSM | Art 017","aperture":"f/11","shutter":"1/20s","iso":100,"focalLength":"70mm","date":"2021-07-11T20:12:53.000Z","gps":null},"location":"Lake Matheson, West Coast, New Zealand","story":"","etsyUrl":"","sortIndex":63}], 0);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "key": "landscapes",
+    "label": "Landscapes"
+  },
+  {
+    "key": "cityscapes",
+    "label": "Cityscapes"
+  },
+  {
+    "key": "alpine",
+    "label": "Alpine & Lakes"
+  },
+  {
+    "key": "coast",
+    "label": "Coast & Beaches"
+  },
+  {
+    "key": "waterfalls",
+    "label": "Waterfalls"
+  },
+  {
+    "key": "long-exposure",
+    "label": "Long Exposure"
+  },
+  {
+    "key": "travel",
+    "label": "Travel"
+  },
+  {
+    "key": "details",
+    "label": "Details & Nature"
+  }
+]

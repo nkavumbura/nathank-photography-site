@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where the Glacier Ends — NathanK Photography</title>
+<meta name="description" content="Hooker Valley, Aoraki/Mount Cook National Park, New Zealand — panoramic photograph shot on Canon EOS 7D Mark II.">
+<meta property="og:title" content="Where the Glacier Ends">
+<meta property="og:description" content="Hooker Valley, Aoraki/Mount Cook National Park, New Zealand">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="photo">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../index.html">
+      <img class="brand-logo" src="../assets/logo.png" alt="">
+      <span>NathanK Photography</span>
+    </a>
+    <nav class="main-nav">
+      <a href="../index.html">Home</a>
+      <a href="../gallery.html">Gallery</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="pd-stage" id="pd-stage">
+  <canvas id="pd-canvas"></canvas>
+  <div class="lb-hint">Ctrl/⌘ + scroll or pinch to zoom · drag to pan</div>
+  <button class="icon-btn pd-fullscreen-btn" id="pd-fullscreen" title="Open full-screen" aria-label="Open full-screen">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/></svg>
+  </button>
+  <noscript><img src="../assets/display/img-047.jpg" alt="Where the Glacier Ends" style="width:100%;height:100%;object-fit:contain;"></noscript>
+</div>
+
+<div class="container pd-body">
+  <div class="pd-head">
+    <span class="pd-category">Landscapes</span>
+    <h1>Where the Glacier Ends</h1>
+    <p class="pd-loc">Hooker Valley, Aoraki/Mount Cook National Park, New Zealand</p>
+  </div>
+
+  <div class="pd-grid">
+    <div class="pd-story-col">
+      <div class="pd-byline">
+        <div class="pd-avatar">NK</div>
+        <div>
+          <div class="pd-byline-name">Nathan Kavumbura</div>
+          <div class="pd-byline-role">Photographer</div>
+        </div>
+      </div>
+      <div class="pd-story-text"><p>A milky glacial lake sitting at the foot of Mt Sefton, fed by ice that's been retreating for decades. Beautiful and quietly sobering at the same time.</p></div>
+    </div>
+    <aside class="pd-meta">
+      <table><tr><td>Location</td><td>Hooker Valley, Aoraki/Mount Cook National Park, New Zealand</td></tr>
+<tr><td>Date captured</td><td>September 22, 2018</td></tr>
+<tr><td>Camera</td><td>Canon EOS 7D Mark II</td></tr>
+<tr><td>Lens</td><td>17-50mm</td></tr>
+<tr><td>Focal length</td><td>25mm</td></tr>
+<tr><td>Aperture</td><td>f/11</td></tr>
+<tr><td>Shutter speed</td><td>2.5s</td></tr>
+<tr><td>ISO</td><td>100</td></tr></table>
+      <a class="btn primary disabled" aria-disabled="true">Shop coming soon</a>
+    </aside>
+  </div>
+
+  <nav class="pd-nav">
+    <div class="pd-nav-prev">
+    <a href="img-023.html">
+      <img class="pd-nav-thumb" src="../assets/thumbs/img-023.jpg" alt="">
+      <span>← Previous<br><b style="color:var(--fg);">Mt Doom in winter</b></span>
+      
+    </a></div>
+    <div class="pd-nav-center"><a href="../gallery.html">All panoramas</a></div>
+    <div class="pd-nav-next">
+    <a href="img-048.html">
+      
+      <span>Next →<br><b style="color:var(--fg);">Ice Blue, Sky Blue</b></span>
+      <img class="pd-nav-thumb" src="../assets/thumbs/img-048.jpg" alt="">
+    </a></div>
+  </nav>
+</div>
+
+<footer class="site-footer">
+  <div class="container" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:12px;">
+    <span>© <span id="footer-year"></span> Nathan Kavumbura. All rights reserved.</span>
+    <span>Prints &amp; digital downloads coming soon.</span>
+  </div>
+</footer>
+
+<script src="../js/protections.js"></script>
+<script src="../js/zoomcanvas.js"></script>
+<script src="../js/lightbox.js"></script>
+<script>
+  document.getElementById("footer-year").textContent = new Date().getFullYear();
+  window.__portfolioConfig = {"siteName":"NathanK Photography","photographerName":"Nathan Kavumbura","tagline":"Panoramic landscape photography","watermarkText":"© Nathan Kavumbura","etsyShopUrl":"","contactEmail":"nkavumbura@gmail.com","displayLongEdgePanorama":5600,"displayLongEdgeStandard":4200,"thumbLongEdge":640,"jpegQuality":84,"thumbQuality":78,"branding":{"hasLogo":true},"home":{"heroImageId":"img-129","heroFocalX":0,"heroTitle":""},"about":{"photo":"about-photo.jpg","body":"This is a collection of panoramic and long-exposure landscape photography, shot largely across New Zealand along with a handful of images from further afield. Most of the work is stitched from multiple exposures to capture the kind of wide field of view that a single frame can't hold — the panoramic format is the point, and every image here is best viewed zoomed in.\n\nPrints and digital downloads of the full-resolution files will be available soon through an Etsy shop — a link will appear on each image once that's live."}};
+  const viewer = window.createZoomViewer({
+    stage: document.getElementById("pd-stage"),
+    canvas: document.getElementById("pd-canvas"),
+    requireModifierForWheel: true,
+  });
+  viewer.loadImage("../assets/display/img-047.jpg");
+  document.getElementById("pd-fullscreen").addEventListener("click", () => {
+    window.Lightbox.open([{"id":"img-047","file":"1Q5A8020-Pano-Edit.jpg","slug":"img-047","title":"Where the Glacier Ends","needsTitleReview":false,"category":"landscapes","categoryLabel":"Landscapes","isPanorama":true,"width":6324,"height":2530,"aspect":2.5,"camera":{"make":"Canon","model":"Canon EOS 7D Mark II","lens":"17-50mm","aperture":"f/11","shutter":"2.5s","iso":"100","focalLength":"25mm","date":"2018-09-21T22:46:44.000Z","gps":null},"location":"Hooker Valley, Aoraki/Mount Cook National Park, New Zealand","story":"A milky glacial lake sitting at the foot of Mt Sefton, fed by ice that's been retreating for decades. Beautiful and quietly sobering at the same time.","etsyUrl":"","sortIndex":6}], 0);
+  });
+</script>
+</body>
+</html>

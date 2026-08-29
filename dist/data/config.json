@@ -1,0 +1,25 @@
+{
+  "siteName": "NathanK Photography",
+  "photographerName": "Nathan Kavumbura",
+  "tagline": "Panoramic landscape photography",
+  "watermarkText": "© Nathan Kavumbura",
+  "etsyShopUrl": "",
+  "contactEmail": "nkavumbura@gmail.com",
+  "displayLongEdgePanorama": 5600,
+  "displayLongEdgeStandard": 4200,
+  "thumbLongEdge": 640,
+  "jpegQuality": 84,
+  "thumbQuality": 78,
+  "branding": {
+    "hasLogo": true
+  },
+  "home": {
+    "heroImageId": "img-129",
+    "heroFocalX": 0,
+    "heroTitle": ""
+  },
+  "about": {
+    "photo": "about-photo.jpg",
+    "body": "This is a collection of panoramic and long-exposure landscape photography, shot largely across New Zealand along with a handful of images from further afield. Most of the work is stitched from multiple exposures to capture the kind of wide field of view that a single frame can't hold — the panoramic format is the point, and every image here is best viewed zoomed in.\n\nPrints and digital downloads of the full-resolution files will be available soon through an Etsy shop — a link will appear on each image once that's live."
+  }
+}

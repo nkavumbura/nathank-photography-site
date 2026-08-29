@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Portfolio</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" id="brand-mark" href="index.html">
+      <img class="brand-logo" id="brand-logo-img" src="assets/logo.png" alt="" style="display:none;">
+      <span id="brand-text">Portfolio</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section" style="padding-top:64px;">
+  <div class="container about-grid">
+    <img id="about-photo" class="about-photo" alt="" style="display:none;">
+    <div class="about-body" style="max-width:720px;">
+      <h2 style="font-family:var(--font-display); font-weight:400; font-size:2rem;">About</h2>
+      <div id="about-text"></div>
+      <p>
+        Questions, licensing enquiries, or print requests: <a id="about-email" href="#" style="text-decoration:underline;"></a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:12px;">
+    <span>© <span id="footer-year"></span> <span class="footer-name">Your Name</span>. All rights reserved.</span>
+    <span>Prints &amp; digital downloads coming soon.</span>
+  </div>
+</footer>
+
+<script src="js/protections.js"></script>
+<script src="js/data.js"></script>
+<script>
+  document.getElementById("footer-year").textContent = new Date().getFullYear();
+  window.PortfolioData.load().then(({ config }) => {
+    document.title = `About — ${config.siteName || "Portfolio"}`;
+    window.PortfolioData.applyBranding(config);
+
+    const email = config.contactEmail || "";
+    const emailEl = document.getElementById("about-email");
+    emailEl.href = email ? `mailto:${email}` : "#";
+    emailEl.textContent = email;
+
+    const about = config.about || {};
+    if (about.photo) {
+      const img = document.getElementById("about-photo");
+      img.src = `assets/${about.photo}`;
+      img.alt = config.photographerName || "";
+      img.style.display = "";
+    }
+    const textEl = document.getElementById("about-text");
+    const body = about.body || "";
+    textEl.innerHTML = body
+      .trim()
+      .split(/\n{2,}/)
+      .map((p) => `<p>${p.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\n/g, "<br>")}</p>`)
+      .join("\n");
+  });
+</script>
+</body>
+</html>

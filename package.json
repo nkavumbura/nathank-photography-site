@@ -1,0 +1,24 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:manifest": "node scripts/build-manifest.mjs",
+    "build:images": "node scripts/process-images.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "sync-data": "node -e \"require('fs').copyFileSync('data/images.json','dist/data/images.json'); require('fs').copyFileSync('config.json','dist/data/config.json')\"",
+    "build": "npm run build:manifest && npm run sync-data && npm run build:images && npm run build:pages",
+    "serve": "node scripts/serve.mjs",
+    "admin": "node scripts/admin-server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "sharp": "^0.35.4",
+    "sortablejs": "^1.15.7"
+  }
+}

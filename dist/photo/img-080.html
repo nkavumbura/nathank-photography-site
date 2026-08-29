@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The River's Fury — NathanK Photography</title>
+<meta name="description" content="Tongariro National Park, New Zealand — panoramic photograph shot on Canon EOS 6D Mark II.">
+<meta property="og:title" content="The River's Fury">
+<meta property="og:description" content="Tongariro National Park, New Zealand">
+<meta property="og:type" content="article">
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="photo">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../index.html">
+      <img class="brand-logo" src="../assets/logo.png" alt="">
+      <span>NathanK Photography</span>
+    </a>
+    <nav class="main-nav">
+      <a href="../index.html">Home</a>
+      <a href="../gallery.html">Gallery</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="pd-stage" id="pd-stage">
+  <canvas id="pd-canvas"></canvas>
+  <div class="lb-hint">Ctrl/⌘ + scroll or pinch to zoom · drag to pan</div>
+  <button class="icon-btn pd-fullscreen-btn" id="pd-fullscreen" title="Open full-screen" aria-label="Open full-screen">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/></svg>
+  </button>
+  <noscript><img src="../assets/display/img-080.jpg" alt="The River's Fury" style="width:100%;height:100%;object-fit:contain;"></noscript>
+</div>
+
+<div class="container pd-body">
+  <div class="pd-head">
+    <span class="pd-category">Waterfalls</span>
+    <h1>The River's Fury</h1>
+    <p class="pd-loc">Tongariro National Park, New Zealand</p>
+  </div>
+
+  <div class="pd-grid">
+    <div class="pd-story-col">
+      <div class="pd-byline">
+        <div class="pd-avatar">NK</div>
+        <div>
+          <div class="pd-byline-name">Nathan Kavumbura</div>
+          <div class="pd-byline-role">Photographer</div>
+        </div>
+      </div>
+      <div class="pd-story-text"><p>White water churning over volcanic rock, a modest drop doing its best impression of something much bigger.</p></div>
+    </div>
+    <aside class="pd-meta">
+      <table><tr><td>Location</td><td>Tongariro National Park, New Zealand</td></tr>
+<tr><td>Date captured</td><td>August 24, 2024</td></tr>
+<tr><td>Camera</td><td>Canon EOS 6D Mark II</td></tr>
+<tr><td>Lens</td><td>24-70mm F2.8 DG OS HSM | Art 017</td></tr>
+<tr><td>Focal length</td><td>33mm</td></tr>
+<tr><td>Aperture</td><td>f/6.3</td></tr>
+<tr><td>Shutter speed</td><td>1/2s</td></tr>
+<tr><td>ISO</td><td>400</td></tr></table>
+      <a class="btn primary disabled" aria-disabled="true">Shop coming soon</a>
+    </aside>
+  </div>
+
+  <nav class="pd-nav">
+    <div class="pd-nav-prev">
+    <a href="img-155.html">
+      <img class="pd-nav-thumb" src="../assets/thumbs/img-155.jpg" alt="">
+      <span>← Previous<br><b style="color:var(--fg);">Victoria Falls</b></span>
+      
+    </a></div>
+    <div class="pd-nav-center"><a href="../gallery.html">All panoramas</a></div>
+    <div class="pd-nav-next">
+    <a href="img-027.html">
+      
+      <span>Next →<br><b style="color:var(--fg);">Cascade Over the Dome</b></span>
+      <img class="pd-nav-thumb" src="../assets/thumbs/img-027.jpg" alt="">
+    </a></div>
+  </nav>
+</div>
+
+<footer class="site-footer">
+  <div class="container" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:12px;">
+    <span>© <span id="footer-year"></span> Nathan Kavumbura. All rights reserved.</span>
+    <span>Prints &amp; digital downloads coming soon.</span>
+  </div>
+</footer>
+
+<script src="../js/protections.js"></script>
+<script src="../js/zoomcanvas.js"></script>
+<script src="../js/lightbox.js"></script>
+<script>
+  document.getElementById("footer-year").textContent = new Date().getFullYear();
+  window.__portfolioConfig = {"siteName":"NathanK Photography","photographerName":"Nathan Kavumbura","tagline":"Panoramic landscape photography","watermarkText":"© Nathan Kavumbura","etsyShopUrl":"","contactEmail":"nkavumbura@gmail.com","displayLongEdgePanorama":5600,"displayLongEdgeStandard":4200,"thumbLongEdge":640,"jpegQuality":84,"thumbQuality":78,"branding":{"hasLogo":true},"home":{"heroImageId":"img-129","heroFocalX":0,"heroTitle":""},"about":{"photo":"about-photo.jpg","body":"This is a collection of panoramic and long-exposure landscape photography, shot largely across New Zealand along with a handful of images from further afield. Most of the work is stitched from multiple exposures to capture the kind of wide field of view that a single frame can't hold — the panoramic format is the point, and every image here is best viewed zoomed in.\n\nPrints and digital downloads of the full-resolution files will be available soon through an Etsy shop — a link will appear on each image once that's live."}};
+  const viewer = window.createZoomViewer({
+    stage: document.getElementById("pd-stage"),
+    canvas: document.getElementById("pd-canvas"),
+    requireModifierForWheel: true,
+  });
+  viewer.loadImage("../assets/display/img-080.jpg");
+  document.getElementById("pd-fullscreen").addEventListener("click", () => {
+    window.Lightbox.open([{"id":"img-080","file":"Final IMG_2623-Pano-Edit-Edit24082024.jpg","slug":"img-080","title":"The River's Fury","needsTitleReview":false,"category":"waterfalls","categoryLabel":"Waterfalls","isPanorama":false,"width":4716,"height":3391,"aspect":1.391,"camera":{"make":"Canon","model":"Canon EOS 6D Mark II","lens":"24-70mm F2.8 DG OS HSM | Art 017","aperture":"f/6.3","shutter":"1/2s","iso":400,"focalLength":"33mm","date":"2024-08-24T02:04:14.000Z","gps":null},"location":"Tongariro National Park, New Zealand","story":"White water churning over volcanic rock, a modest drop doing its best impression of something much bigger.","etsyUrl":"","sortIndex":94,"manualPublish":true}], 0);
+  });
+</script>
+</body>
+</html>
