@@ -1547,6 +1547,35 @@
     "sortIndex": 54
   },
   {
+    "id": "img-159",
+    "file": "Icy Tasman Lake.jpg",
+    "slug": "img-159",
+    "title": "Icy Tasman Lake",
+    "needsTitleReview": false,
+    "category": "alpine",
+    "categoryLabel": "Alpine & Lakes",
+    "isPanorama": true,
+    "width": 15529,
+    "height": 5810,
+    "aspect": 2.673,
+    "camera": {
+      "make": "Canon",
+      "model": "Canon EOS 6D Mark II",
+      "lens": "24-70mm F2.8 DG OS HSM | Art 017",
+      "aperture": "f/11",
+      "shutter": "1/80s",
+      "iso": "100",
+      "focalLength": "33mm",
+      "date": "2021-07-14T04:31:12.000Z",
+      "gps": null
+    },
+    "location": "Tasman Glacier, Aoraki/Mt Cook National Park",
+    "story": "I have a few images from this spot. I love how, on this day, the glacial lake is filled with icebergs and the late afternoon light is kissing the peaks.",
+    "etsyUrl": "",
+    "sortIndex": 55,
+    "manualPublish": true
+  },
+  {
     "id": "img-058",
     "file": "Alpine MemorialOriginal.jpg",
     "slug": "img-058",
@@ -1572,7 +1601,7 @@
     "location": "Hooker Valley",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 55
+    "sortIndex": 56
   },
   {
     "id": "img-060",
@@ -1600,7 +1629,7 @@
     "location": "Ashburton Lakes, Canterbury, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 56
+    "sortIndex": 57
   },
   {
     "id": "img-095",
@@ -1628,7 +1657,7 @@
     "location": "Aoraki/Mount Cook National Park, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 57
+    "sortIndex": 58
   },
   {
     "id": "img-124",
@@ -1656,7 +1685,7 @@
     "location": "",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 58
+    "sortIndex": 59
   },
   {
     "id": "img-097",
@@ -1684,7 +1713,7 @@
     "location": "",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 59
+    "sortIndex": 60
   },
   {
     "id": "img-099",
@@ -1712,7 +1741,7 @@
     "location": "Hooker Valley Track, Aoraki/Mount Cook National Park, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 60
+    "sortIndex": 61
   },
   {
     "id": "img-122",
@@ -1799,7 +1828,7 @@
     "location": "Lindis Pass, Otago, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 65
+    "sortIndex": 64
   },
   {
     "id": "img-153",
@@ -1827,7 +1856,7 @@
     "location": "",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 66
+    "sortIndex": 65
   },
   {
     "id": "img-127",
@@ -1855,7 +1884,7 @@
     "location": "Lake Matheson, West Coast, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 67
+    "sortIndex": 66
   },
   {
     "id": "img-131",
@@ -1883,7 +1912,7 @@
     "location": "Mueller Lake, Aoraki/Mount Cook National Park, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 68
+    "sortIndex": 67
   },
   {
     "id": "img-139",
@@ -1911,7 +1940,7 @@
     "location": "Lake Pukaki, Mackenzie Basin, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 69
+    "sortIndex": 68
   },
   {
     "id": "img-141",
@@ -1939,7 +1968,7 @@
     "location": "Aoraki/Mount Cook National Park, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 70
+    "sortIndex": 69
   },
   {
     "id": "img-143",
@@ -1967,7 +1996,7 @@
     "location": "Lake Pukaki, Mackenzie Basin, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 71
+    "sortIndex": 70
   },
   {
     "id": "img-147",
@@ -1995,7 +2024,7 @@
     "location": "Lake Pukaki, Mackenzie Basin, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 72
+    "sortIndex": 71
   },
   {
     "id": "img-152",
@@ -2023,7 +2052,7 @@
     "location": "Tasman Lake, Aoraki/Mount Cook National Park, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 73
+    "sortIndex": 72
   },
   {
     "id": "img-071",
@@ -2051,7 +2080,7 @@
     "location": "Te Rewa Rewa Bridge, New Plymouth, Taranaki, New Zealand",
     "story": "Curved white ribs framing the mountain beyond — one of the more striking pieces of public architecture in the country, built to echo a wave and a whale's spine at once.",
     "etsyUrl": "",
-    "sortIndex": 74,
+    "sortIndex": 73,
     "manualPublish": true
   },
   {
@@ -2080,7 +2109,7 @@
     "location": "Anawhata Beach, Waitākere Ranges, Auckland, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 75
+    "sortIndex": 74
   },
   {
     "id": "img-132",
@@ -2108,7 +2137,7 @@
     "location": "Muriwai Beach, Auckland, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 76
+    "sortIndex": 75
   },
   {
     "id": "img-133",
@@ -2136,7 +2165,7 @@
     "location": "Cathedral Cove, Coromandel, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 77
+    "sortIndex": 76
   },
   {
     "id": "img-084",
@@ -2164,7 +2193,7 @@
     "location": "New Zealand coastline",
     "story": "A sunrise that turns the whole sky the colour of embers, rocks and a lone pōhutukawa silhouetted against it.",
     "etsyUrl": "",
-    "sortIndex": 78
+    "sortIndex": 77
   },
   {
     "id": "img-093",
@@ -2195,7 +2224,7 @@
     "location": "",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 80
+    "sortIndex": 78
   },
   {
     "id": "img-136",
@@ -2223,7 +2252,7 @@
     "location": "Piha Beach, Auckland, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 81
+    "sortIndex": 79
   },
   {
     "id": "img-051",
@@ -2251,7 +2280,7 @@
     "location": "Magazine Bay, Auckland, New Zealand",
     "story": "A single jetty splitting two curved beaches, a small boat moored alongside — the kind of view that makes you want to just sit at the end of it.",
     "etsyUrl": "",
-    "sortIndex": 82
+    "sortIndex": 80
   },
   {
     "id": "img-077",
@@ -2279,7 +2308,7 @@
     "location": "New Plymouth, New Zealand",
     "story": "Windswept grass in the foreground, an offshore rock catching the day's last light — a coastline that always looks like it's in a mood.",
     "etsyUrl": "",
-    "sortIndex": 83
+    "sortIndex": 81
   },
   {
     "id": "img-072",
@@ -2307,7 +2336,7 @@
     "location": "Oneroa Bay Beach (Long Bay), Russell, New Zealand",
     "story": "A cove closed in on both sides by dark headlands, the sky doing all the work in gold and violet.",
     "etsyUrl": "",
-    "sortIndex": 84
+    "sortIndex": 82
   },
   {
     "id": "img-073",
@@ -2335,7 +2364,7 @@
     "location": "Oneroa Bay Beach (Long Bay), Russell, New Zealand",
     "story": "The same bay, the tide a little further in, rock stacks catching the last warm light before the colour goes out of the sky entirely.",
     "etsyUrl": "",
-    "sortIndex": 85
+    "sortIndex": 83
   },
   {
     "id": "img-035",
@@ -2363,7 +2392,7 @@
     "location": "Te Arai Beach, Auckland, New Zealand",
     "story": "A pocket of impossibly clear water tucked behind a rocky headland — the sort of spot that only reveals itself once you've climbed over the hill to look.",
     "etsyUrl": "",
-    "sortIndex": 86
+    "sortIndex": 84
   },
   {
     "id": "img-053",
@@ -2391,7 +2420,7 @@
     "location": "Whatipu Beach, Auckland, New Zealand",
     "story": "Cliffs stacked in warm gold, the coastline curving away into haze — golden hour doing exactly what it does best.",
     "etsyUrl": "",
-    "sortIndex": 87
+    "sortIndex": 85
   },
   {
     "id": "img-043",
@@ -2419,7 +2448,7 @@
     "location": "Muriwai, Auckland, New Zealand",
     "story": "Heavy cloud breaking just enough to let the sun through in hard shafts of light over a wild, wind-whipped sea.",
     "etsyUrl": "",
-    "sortIndex": 88
+    "sortIndex": 86
   },
   {
     "id": "img-149",
@@ -2447,7 +2476,7 @@
     "location": "Te Arai Beach, Auckland, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 89
+    "sortIndex": 87
   },
   {
     "id": "img-100",
@@ -2475,7 +2504,7 @@
     "location": "Huka Falls, Taupō, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 90
+    "sortIndex": 88
   },
   {
     "id": "img-150",
@@ -2503,7 +2532,7 @@
     "location": "Taranaki Falls, Tongariro National Park, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 91
+    "sortIndex": 89
   },
   {
     "id": "img-151",
@@ -2531,7 +2560,7 @@
     "location": "Taranaki Falls, Tongariro National Park, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 92
+    "sortIndex": 90
   },
   {
     "id": "img-155",
@@ -2559,7 +2588,7 @@
     "location": "Victoria Falls, Zimbabwe",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 93
+    "sortIndex": 91
   },
   {
     "id": "img-080",
@@ -2587,7 +2616,7 @@
     "location": "Tongariro National Park, New Zealand",
     "story": "White water churning over volcanic rock, a modest drop doing its best impression of something much bigger.",
     "etsyUrl": "",
-    "sortIndex": 94,
+    "sortIndex": 92,
     "manualPublish": true
   },
   {
@@ -2616,7 +2645,7 @@
     "location": "Waikato, New Zealand",
     "story": "Water fans out over a mossy rock dome in dozens of separate threads, tree ferns crowding in on every side.",
     "etsyUrl": "",
-    "sortIndex": 95,
+    "sortIndex": 93,
     "manualPublish": true
   },
   {
@@ -2645,7 +2674,7 @@
     "location": "Waikato, New Zealand",
     "story": "The same cascade, pulled back a little wider — water falling like a curtain rather than a single stream.",
     "etsyUrl": "",
-    "sortIndex": 96
+    "sortIndex": 94
   },
   {
     "id": "img-114",
@@ -2673,7 +2702,7 @@
     "location": "Karekare, Waitākere Ranges, Auckland, New Zealand",
     "story": "A tiered waterfall dropping into a turquoise pool, nikau palms leaning in as if they came just to watch.",
     "etsyUrl": "",
-    "sortIndex": 97
+    "sortIndex": 95
   },
   {
     "id": "img-121",
@@ -2701,7 +2730,7 @@
     "location": "Karekare, Waitākere Ranges, Auckland, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 98,
+    "sortIndex": 96,
     "manualPublish": true
   },
   {
@@ -2730,7 +2759,7 @@
     "location": "Hunua Falls, Auckland, New Zealand",
     "story": "A single unbroken drop from a hanging cliff, the base lost in its own mist by the time the water gets there.",
     "etsyUrl": "",
-    "sortIndex": 99
+    "sortIndex": 97
   },
   {
     "id": "img-021",
@@ -2758,7 +2787,7 @@
     "location": "Tongariro National Park, New Zealand",
     "story": "The falls still running hard even with snow banked up along the pool's edge — proof that winter here is more bark than bite.",
     "etsyUrl": "",
-    "sortIndex": 100
+    "sortIndex": 98
   },
   {
     "id": "img-082",
@@ -2786,7 +2815,7 @@
     "location": "Huka Falls, Taupō, New Zealand",
     "story": "That impossible turquoise isn't a filter — it's just how much water the Waikato River is forcing through a gap this narrow.",
     "etsyUrl": "",
-    "sortIndex": 101
+    "sortIndex": 99
   },
   {
     "id": "img-075",
@@ -2814,7 +2843,7 @@
     "location": "Taranaki, New Zealand",
     "story": "Moss thick enough to look upholstered, a narrow fall of water cutting straight through the middle of it.",
     "etsyUrl": "",
-    "sortIndex": 102
+    "sortIndex": 100
   },
   {
     "id": "img-112",
@@ -2842,7 +2871,7 @@
     "location": "Karekare, Waitākere Ranges, Auckland, New Zealand",
     "story": "A broad curtain of falling water fanning into a dark, still pool — more volume than height, and all the more dramatic for it.",
     "etsyUrl": "",
-    "sortIndex": 103
+    "sortIndex": 101
   },
   {
     "id": "img-018",
@@ -2870,7 +2899,7 @@
     "location": "Taranaki Falls, Tongariro National Park, New Zealand",
     "story": "The full drop in one vertical frame, snow still lingering at the base while the water keeps working.",
     "etsyUrl": "",
-    "sortIndex": 104
+    "sortIndex": 102
   },
   {
     "id": "img-113",
@@ -2898,7 +2927,7 @@
     "location": "Karekare, Waitākere Ranges, Auckland, New Zealand",
     "story": "An overhanging branch and a nikau palm doing the framing this time — the same falls, seen the way you'd actually stumble on them.",
     "etsyUrl": "",
-    "sortIndex": 105,
+    "sortIndex": 103,
     "manualPublish": true
   },
   {
@@ -2927,7 +2956,7 @@
     "location": "Fiji",
     "story": "Spinning fire traced into a long exposure until it stops looking like poi and starts looking like something drawn by hand.",
     "etsyUrl": "",
-    "sortIndex": 106,
+    "sortIndex": 104,
     "manualPublish": true
   },
   {
@@ -2956,7 +2985,7 @@
     "location": "Fiji",
     "story": "A single frame holding several seconds of movement — fire flung, caught, and flung again.",
     "etsyUrl": "",
-    "sortIndex": 107,
+    "sortIndex": 105,
     "manualPublish": true
   },
   {
@@ -2985,7 +3014,7 @@
     "location": "Fiji",
     "story": "Two overlapping circles of fire, traced so cleanly they could almost be a logo rather than a performance.",
     "etsyUrl": "",
-    "sortIndex": 108,
+    "sortIndex": 106,
     "manualPublish": true
   },
   {
@@ -3014,7 +3043,7 @@
     "location": "Fiji",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 109,
+    "sortIndex": 107,
     "manualPublish": true
   },
   {
@@ -3043,7 +3072,7 @@
     "location": "Auckland International Airport, New Zealand",
     "story": "Dozens of takeoffs stacked into one exposure until the night sky looks strung with wire.",
     "etsyUrl": "",
-    "sortIndex": 110,
+    "sortIndex": 108,
     "manualPublish": true
   },
   {
@@ -3072,7 +3101,7 @@
     "location": "Auckland International Airport, New Zealand",
     "story": "Aircraft banking away from the runway, their trails curling back over the city they just left.",
     "etsyUrl": "",
-    "sortIndex": 111,
+    "sortIndex": 109,
     "manualPublish": true
   },
   {
@@ -3101,7 +3130,7 @@
     "location": "Auckland International Airport, New Zealand",
     "story": "A long, low bridge traced entirely in the tail-lights of everyone crossing it after dark.",
     "etsyUrl": "",
-    "sortIndex": 112,
+    "sortIndex": 110,
     "manualPublish": true
   },
   {
@@ -3130,7 +3159,7 @@
     "location": "Desert Road, Central Plateau, New Zealand",
     "story": "Car lights streak past in red and gold while an eleven-thousand-year-old volcano looks on, entirely unmoved.",
     "etsyUrl": "",
-    "sortIndex": 113,
+    "sortIndex": 111,
     "manualPublish": true
   },
   {
@@ -3162,7 +3191,7 @@
     "location": "Point England, Auckland New Zealand",
     "story": "Spinning steel wool at an Auckland Beach at sunrise.",
     "etsyUrl": "",
-    "sortIndex": 114,
+    "sortIndex": 112,
     "manualPublish": true
   },
   {
@@ -3191,7 +3220,7 @@
     "location": "Auckland, New Zealand",
     "story": "Stacked long-exposure light trails of the ferries coming in and out of the ferry terminal in Auckland.",
     "etsyUrl": "",
-    "sortIndex": 115,
+    "sortIndex": 113,
     "manualPublish": true
   },
   {
@@ -3220,7 +3249,7 @@
     "location": "Cornwall Park, Auckland, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 116
+    "sortIndex": 114
   },
   {
     "id": "img-064",
@@ -3248,7 +3277,7 @@
     "location": "Cornwall Park, Auckland, New Zealand",
     "story": "",
     "etsyUrl": "",
-    "sortIndex": 117
+    "sortIndex": 115
   },
   {
     "id": "img-006",
@@ -3276,7 +3305,7 @@
     "location": "Cornwall Park, Auckland, New Zealand",
     "story": "Autumn leaves scattered across open grass, mature trees casting long afternoon shade — an ordinary park moment that's easy to walk straight past.",
     "etsyUrl": "",
-    "sortIndex": 118
+    "sortIndex": 116
   },
   {
     "id": "img-088",
@@ -3304,6 +3333,6 @@
     "location": "New Zealand",
     "story": "A tangle of yellow, orange and pink dahlias, the kind of close-up burst of colour that's a deliberate change of pace from wide-open landscapes.",
     "etsyUrl": "",
-    "sortIndex": 119
+    "sortIndex": 117
   }
 ]
